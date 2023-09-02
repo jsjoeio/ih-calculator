@@ -3,6 +3,7 @@
 import '@/styles/globals.css'
 // Component Imports
 import { Button } from "@/components/ui/button"
+import { Calculator } from "@/components/ui/calculator"
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
@@ -22,7 +23,8 @@ import { Button } from "@/components/ui/button"
 		<p>I want to make $50,000</p>
 		<p>in 3 months by selling a</p>
 		<p>$100 course.</p>
-			<Button>Tailwind Button in Astro!</Button>
+			<Button>Calculate</Button>
 		</div>
+		<Calculator client:idle />
 	</body>
 </html>
