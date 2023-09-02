@@ -5,7 +5,7 @@ export function Calculator() {
     <div>
       <Button
         onClick={() => {
-          console.log('hello world');
+          console.log('goodbye world');
         }}
       >
         Calculate
